@@ -1,0 +1,12 @@
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/bin/Debug/net5.0/Entities.deps.json
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/bin/Debug/net5.0/Entities.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/bin/Debug/net5.0/ref/Entities.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/bin/Debug/net5.0/Entities.pdb
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.csprojAssemblyReference.cache
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.AssemblyInfoInputs.cache
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.AssemblyInfo.cs
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.csproj.CoreCompileInputs.cache
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/ref/Entities.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.pdb
