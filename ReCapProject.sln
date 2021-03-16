@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{A2D2C0F2-8170-4473-B8AB-1372A3829769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2", "Core2\Core2.csproj", "{37963232-032E-4530-8192-FCAB5ED9C868}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A2D2C0F2-8170-4473-B8AB-1372A3829769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D2C0F2-8170-4473-B8AB-1372A3829769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D2C0F2-8170-4473-B8AB-1372A3829769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37963232-032E-4530-8192-FCAB5ED9C868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37963232-032E-4530-8192-FCAB5ED9C868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37963232-032E-4530-8192-FCAB5ED9C868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37963232-032E-4530-8192-FCAB5ED9C868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

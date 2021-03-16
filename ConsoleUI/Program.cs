@@ -12,12 +12,12 @@ namespace ConsoleUI
         {
             CarManager carManager = new CarManager(new EfCarDal());
             Car carr = new Car();
-            carr.ModelYear = 2015;
+            carr.ModelYear = 2025;
             carr.Description = "asdasd";
             carr.BrandId = 1;
             carr.ColorId = 1;
             carr.DailyPrice = 100;
-            carr.CarId = 12;
+        
             carManager.Add(carr);
             foreach (var car in carManager.GetCarsByBrandId(1))
             {
