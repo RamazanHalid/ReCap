@@ -4,6 +4,7 @@ using System.Linq;
 using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Concrete
 {
@@ -39,6 +40,11 @@ namespace Business.Concrete
                 _carDal.Add(car);
             }
            
+        }
+
+        public List<CarDetailsDto> GetCarDetails()
+        {
+            return _carDal.GetCarDetailsDtos();
         }
     }
 }

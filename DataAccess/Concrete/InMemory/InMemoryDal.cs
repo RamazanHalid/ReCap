@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory
 {
@@ -84,6 +85,11 @@ namespace DataAccess.Concrete.InMemory
             _car.Remove(toDeleteCar);
 
 
+        }
+
+        public List<CarDetailsDto> GetCarDetailsDtos()
+        {
+            throw new NotImplementedException();
         }
     }
 }

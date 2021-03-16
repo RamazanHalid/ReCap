@@ -1219,6 +1219,14 @@
           "Business.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.6"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
@@ -1231,6 +1239,7 @@
       },
       "Entities/1.0.0": {
         "dependencies": {
+          "Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.6",
           "MySql.Data.EntityFrameworkCore": "8.0.22"
         },
@@ -2003,6 +2012,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
     "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
