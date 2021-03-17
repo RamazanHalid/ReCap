@@ -46,6 +46,7 @@ namespace Entities.Abstract.EntityFramework
             {
                 var updatedEntity = context.Entry(entity);
                 updatedEntity.State = EntityState.Modified;
+                
                 context.SaveChanges();
             }
         }

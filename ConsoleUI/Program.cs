@@ -10,9 +10,9 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            
-            
-          /*  Car car1 = new Car();
+   
+            Car car1 = new Car();
+            car1.CarId = 134;
             car1.CarName = "E180 AMG";
             car1.BrandId = 3;
             car1.ColorId = 3;
@@ -21,11 +21,20 @@ namespace ConsoleUI
             car1.ModelYear = 2021;
             
             CarManager carManager = new CarManager(new EfCarDal());
-            carManager.Add(car1);
-            foreach (var details in carManager.GetCarDetails())
+            var result = carManager.GetCarDetails();
+            if (result.Success)
             {
-                Console.WriteLine(details.CarName + "-" + details.DailyPrice);
-            }*/
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine(car.CarName);
+                }
+            }
+            
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+
 
         }
     }
