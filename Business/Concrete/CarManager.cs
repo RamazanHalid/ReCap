@@ -66,15 +66,20 @@ namespace Business.Concrete
             _carDal.Delete(car);
             return new SuccessResult(Messages.CarDeleted);
         }
+        
+        
+        
 
         public IResult Update(Car car)
         {
-            if (_carDal.Get(c=>c.CarId==car.CarId) == null)
+            var result = _carDal.Get(c => c.CarId == car.CarId);
+            if ( result == null)
             {
                 return new ErrorResult(Messages.CarNameInvalid);
             }
+            
             _carDal.Update(car);
-            return new SuccessResult(Messages.CarAdded);
+            return new SuccessResult(Messages.CarUpdated);
 
         }
 

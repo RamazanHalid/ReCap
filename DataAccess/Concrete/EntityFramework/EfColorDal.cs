@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfColorDal:IEntityRepository<Color>
+    public class EfColorDal:IColorDal
     {
         public List<Color> GetAll(Expression<Func<Color, bool>> filter = null)
         {

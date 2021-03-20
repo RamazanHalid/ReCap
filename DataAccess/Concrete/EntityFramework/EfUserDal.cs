@@ -3,33 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using DataAccess.Abstract;
-using Entities.Abstract;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfBrandDal:IBrandDal
+    public class EfUserDal:IUserDal
     {
-        public List<Brand> GetAll(Expression<Func<Brand, bool>> filter = null)
+        public List<User> GetAll(Expression<Func<User, bool>> filter = null)
         {
             using (MySQLContext context = new MySQLContext())
             {
                 return filter == null
-                    ? context.Set<Brand>().ToList()
-                    : context.Set<Brand>().Where(filter).ToList();
+                    ? context.Set<User>().ToList()
+                    : context.Set<User>().Where(filter).ToList();
             }
         }
 
-        public Brand Get(Expression<Func<Brand, bool>> filter)
+        public User Get(Expression<Func<User, bool>> filter)
         {
             using (MySQLContext context = new MySQLContext())
             {
-                return context.Set<Brand>().SingleOrDefault(filter);
+                return context.Set<User>().SingleOrDefault(filter);
             }
         }
 
-        public void Add(Brand entity)
+        public void Add(User entity)
         {
             using (MySQLContext context = new MySQLContext())
             {
@@ -39,7 +38,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public void Update(Brand entity)
+        public void Update(User entity)
         {
             using (MySQLContext context = new MySQLContext())
             {
@@ -49,7 +48,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public void Delete(Brand entity)
+        public void Delete(User entity)
         {
             using (MySQLContext context = new MySQLContext())
             {
