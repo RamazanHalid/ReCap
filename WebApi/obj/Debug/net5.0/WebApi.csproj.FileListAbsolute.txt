@@ -11,8 +11,6 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/K4os.Compression.LZ4.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/K4os.Compression.LZ4.Streams.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/K4os.Hash.xxHash.dll
-/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.Bcl.HashCode.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
@@ -54,3 +52,10 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/obj/Debug/net5.0/ref/WebApi.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/obj/Debug/net5.0/WebApi.pdb
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/obj/Debug/net5.0/WebApi.genruntimeconfig.cache
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Autofac.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Autofac.Extensions.DependencyInjection.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Autofac.Extras.DynamicProxy.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Castle.Core.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/FluentValidation.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.Bcl.HashCode.dll

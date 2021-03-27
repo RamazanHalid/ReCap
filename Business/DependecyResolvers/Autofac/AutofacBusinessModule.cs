@@ -4,6 +4,8 @@ using Business.Abstract;
 using Business.Concrete;
 using Castle.DynamicProxy;
 using Core.Utilities.Interceptors;
+using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
 
 namespace Business.DependecyResolvers.Autofac
 {
@@ -12,11 +14,12 @@ namespace Business.DependecyResolvers.Autofac
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CarManager>().As<ICarService>().SingleInstance();
-            builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
+            builder.RegisterType<EfCarDal>().As<ICarDal>().SingleInstance();
+          /*  builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
             builder.RegisterType<BrandManeger>().As<IBrandService>().SingleInstance();
             builder.RegisterType<CustomerManager>().As<ICustomerService>().SingleInstance();
             builder.RegisterType<RentalManager>().As<IRentalService>().SingleInstance();
-            builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
+            builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();*/
             
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

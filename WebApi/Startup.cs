@@ -31,21 +31,19 @@ namespace WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            
-            services.AddSingleton<ICarService, CarManager>();
-            services.AddSingleton<ICarDal, EfCarDal>();
-            
-            services.AddSingleton<IBrandService, BrandManeger>();
-            services.AddSingleton<IBrandDal, EfBrandDal>();
-            
-            services.AddSingleton<IColorDal, EfColorDal>();
-            services.AddSingleton<IColorService, ColorManager>();
-            
-            
-            
-            
-            
-            
+            //
+            // services.AddSingleton<ICarService, CarManager>();
+            // services.AddSingleton<ICarDal, EfCarDal>();
+            //
+            // services.AddSingleton<IBrandService, BrandManeger>();
+            // services.AddSingleton<IBrandDal, EfBrandDal>();
+            //
+            // services.AddSingleton<IColorDal, EfColorDal>();
+            // services.AddSingleton<IColorService, ColorManager>();
+            //
+            //
+            //
+            //
             
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "WebApi", Version = "v1"}); });
         }

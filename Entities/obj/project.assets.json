@@ -2065,7 +2065,8 @@
           "Autofac.Extensions.DependencyInjection": "7.1.0",
           "Autofac.Extras.DynamicProxy": "6.0.0",
           "FluentValidation": "9.5.1",
-          "Microsoft.EntityFrameworkCore": "3.1.6"
+          "Microsoft.EntityFrameworkCore": "3.1.6",
+          "MySql.Data.EntityFrameworkCore": "8.0.22"
         },
         "compile": {
           "bin/placeholder/Core.dll": {}
@@ -7071,7 +7072,6 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Core >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.6",
       "MySql.Data.EntityFrameworkCore >= 8.0.22"
     ]
   },
@@ -7116,10 +7116,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[3.1.6, )"
-          },
           "MySql.Data.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.22, )"

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -26,7 +28,7 @@ namespace Business.Concrete
             {
                 return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime);
             }
-           return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.ProductListed) ;    
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.ProductListed) ;    
         }
 
         public IDataResult<Car> GetById(int id)
@@ -44,6 +46,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.ColorId == id)) ;
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
             if (car.Description.Length > 2 && car.DailyPrice > 0 )

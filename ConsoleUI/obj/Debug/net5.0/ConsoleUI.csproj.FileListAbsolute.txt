@@ -61,3 +61,8 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/System.Xml.XPath.XmlDocument.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/Core.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/Core.pdb
+/Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/Autofac.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/Autofac.Extensions.DependencyInjection.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/Autofac.Extras.DynamicProxy.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/Castle.Core.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/ConsoleUI/bin/Debug/net5.0/FluentValidation.dll

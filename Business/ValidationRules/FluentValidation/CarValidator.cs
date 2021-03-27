@@ -10,7 +10,7 @@ namespace Business.ValidationRules.FluentValidation
             RuleFor(p=>p.CarName).MinimumLength(2);
             RuleFor(p => p.DailyPrice).NotEmpty();
             RuleFor(p => p.DailyPrice).GreaterThan(0);
-            RuleFor(p => p.DailyPrice).GreaterThanOrEqualTo(10).When(p => p.ColorId == 1);
+           // RuleFor(p => p.DailyPrice).GreaterThanOrEqualTo(10).When(p => p.ColorId == 1);
             RuleFor(p => p.CarName).Must(StartWithA);
             //.WithMassage ile mesaj eklenebilir.
         }
