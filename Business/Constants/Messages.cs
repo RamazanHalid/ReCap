@@ -24,5 +24,8 @@ namespace Business.Constants
         public static string ColorUpdated = "Color Updated";
 
         public static string ColorNameInvalid = "Color Name Invalid";
+        public static string CarImageAdded = "Car image added!";
+        public static string CarImageDeleted = "Car image deleted!";
+        public static string CarImageUpdated = "Car image updated";
     }
 }

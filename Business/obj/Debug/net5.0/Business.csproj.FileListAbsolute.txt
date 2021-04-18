@@ -17,3 +17,4 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/Business/obj/Debug/net5.0/Business.pdb
 /Users/ramazanhalid/RiderProjects/ReCapProject/Business/bin/Debug/net5.0/Core.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/Business/bin/Debug/net5.0/Core.pdb
+/Users/ramazanhalid/RiderProjects/ReCapProject/Business/bin/Debug/net5.0/Microsoft.AspNetCore.Http.Features.dll

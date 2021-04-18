@@ -14,7 +14,8 @@
           "Entities": "1.0.0",
           "FluentValidation": "9.5.1",
           "Microsoft.EntityFrameworkCore": "3.1.6",
-          "MySql.Data.EntityFrameworkCore": "8.0.22"
+          "MySql.Data.EntityFrameworkCore": "8.0.22",
+          "Microsoft.AspNetCore.Http.Features": "5.0.0.0"
         },
         "runtime": {
           "Business.dll": {}
@@ -1378,6 +1379,14 @@
         "runtime": {
           "Entities.dll": {}
         }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.421.11815"
+          }
+        }
       }
     }
   },
@@ -2309,6 +2318,11 @@
     },
     "Entities/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
