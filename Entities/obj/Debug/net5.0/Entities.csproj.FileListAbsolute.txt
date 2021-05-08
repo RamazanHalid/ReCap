@@ -13,4 +13,3 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/Entities/bin/Debug/net5.0/Core.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/Entities/bin/Debug/net5.0/Core.pdb
 /Users/ramazanhalid/RiderProjects/ReCapProject/Entities/obj/Debug/net5.0/Entities.csproj.CopyComplete
-/Users/ramazanhalid/RiderProjects/ReCapProject/Entities/bin/Debug/net5.0/Microsoft.AspNetCore.Http.Features.dll

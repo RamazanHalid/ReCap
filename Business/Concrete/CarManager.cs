@@ -2,8 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
 using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -20,8 +22,20 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
-
-
+     /******************************/
+     [CacheRemoveAspect("ICarService.Get")]
+        public IResult Add(Car car)
+        {
+            if (DateTime.Now.Hour == 1 )
+            {
+                return new ErrorResult("Maintain time!");
+                
+            }
+            _carDal.Add(car);
+            return new SuccessResult( "Your Car Added");
+        }
+        [SecuredOperation("car.add")]
+        [CacheAspect]
         public IDataResult<List<Car>>  GetAll()
         {
             if (DateTime.Now.Day == 22)
@@ -46,19 +60,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.ColorId == id)) ;
         }
 
-        [ValidationAspect(typeof(CarValidator))]
-        public IResult Add(Car car)
-        {
-            if (car.Description.Length > 2 && car.DailyPrice > 0 )
-            {
-                _carDal.Add(car);
-                return new SuccessResult( Messages.CarAdded);
-                
-            }
-
-            return new ErrorResult(Messages.CarNameInvalid);
-
-        }
+        
 
         public IResult Delete(Car car)
         {
@@ -87,9 +89,10 @@ namespace Business.Concrete
         }
 
 
-        public IDataResult<List<CarDetailsDto>>  GetCarDetails()
+     /*   public IDataResult<List<CarDetailsDto>>  GetCarDetails()
         {
             return new SuccessDataResult<List<CarDetailsDto>>( _carDal.GetCarDetailsDtos());
         }
+        */
     }
 }

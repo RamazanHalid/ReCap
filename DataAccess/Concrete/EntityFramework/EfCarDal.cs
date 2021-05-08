@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
-using Entities.Abstract.EntityFramework;
 using Entities.Concrete;
 using Entities.DTOs;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +13,8 @@ namespace DataAccess.Concrete.EntityFramework
     public class EfCarDal:EfEntityRepositoryBase<Car,MySQLContext>, ICarDal
     {
       
+        
+
         public List<CarDetailsDto> GetCarDetailsDtos()
         {
             using (MySQLContext context = new MySQLContext())
@@ -28,7 +30,7 @@ namespace DataAccess.Concrete.EntityFramework
                         Brand = br.BrandName,
                         ColorName = cl.ColorName,
                         CarName = cr.CarName
-                        
+                 
                     };
                 return result.ToList();
 
@@ -36,3 +38,14 @@ namespace DataAccess.Concrete.EntityFramework
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+

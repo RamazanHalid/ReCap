@@ -1,9 +1,10 @@
 using System.Collections.Generic;
 using Business.Abstract;
 using Business.Constants;
+using Core.Entities.Concrete;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
-using Entities.Concrete;
+
 
 namespace Business.Concrete
 {
@@ -57,6 +58,16 @@ namespace Business.Concrete
 
             _userDal.Update(user);
             return new SuccessResult(Messages.Added);
+        }
+
+        public User GetByMail(string email)
+        {
+            return _userDal.Get(u => u.Email == email);
+        }
+
+        public List<OperationClaim> GetClaims(User user)
+        {
+            return _userDal.GetClaims(user);
         }
     }
 }

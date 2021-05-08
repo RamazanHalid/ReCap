@@ -59,3 +59,10 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/FluentValidation.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.Bcl.HashCode.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll

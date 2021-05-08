@@ -14,13 +14,27 @@ namespace WebApi.Controllers
     [ApiController]
     public class CarsController : ControllerBase
     {
+        //Loosely coupled
+        //constructor injectıon
         private ICarService _carService;
-
         public CarsController(ICarService carService)
         {
             _carService = carService;
         }
-
+       
+        /********************************/
+        [HttpPost("add")]
+        public IActionResult Add(Car car)
+        {
+            var result = _carService.Add(car);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        
+        /***********************************/
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
@@ -46,17 +60,7 @@ namespace WebApi.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost("add")]
-        public IActionResult Add(Car car)
-        {
-            var result = _carService.Add(car);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-
-            return BadRequest(result);
-        }
+        
         [HttpPost("delete")]
         public IActionResult Delete(Car car)
         {
@@ -80,7 +84,7 @@ namespace WebApi.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("getcardetails")]
+       /* [HttpGet("getcardetails")]
         public IActionResult GetCarDetails()
         {
             var result = _carService.GetCarDetails();
@@ -91,7 +95,7 @@ namespace WebApi.Controllers
 
             return BadRequest(result);
         }
-
+*/
         [HttpGet("getbycolorid")]
         public IActionResult GetByColorId(int id)
         {

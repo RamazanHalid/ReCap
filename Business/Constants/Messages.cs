@@ -1,3 +1,5 @@
+using Core.Entities.Concrete;
+
 namespace Business.Constants
 {
     public class Messages
@@ -27,5 +29,14 @@ namespace Business.Constants
         public static string CarImageAdded = "Car image added!";
         public static string CarImageDeleted = "Car image deleted!";
         public static string CarImageUpdated = "Car image updated";
+        public static string CarImageNotFounded = "Car image is not founded";
+        public static string CarImagesCountLimited = "Car image can not be more than 5!";
+        public static string AuthorizationDenied = " AuthorizationDenied";
+        public static string UserRegistered = "User Registered!";
+        public static string AccessTokenCreated = "Access token created!";
+        public static string UserAlreadyExists = "User already exists!";
+        public static string UserNotFound = "User not found!";
+        public static string PasswordError = "Password error!";
+        public static string SuccessfulLogin = "Successful login!";
     }
 }

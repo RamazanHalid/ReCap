@@ -15,4 +15,3 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/DataAccess/obj/Debug/net5.0/DataAccess.pdb
 /Users/ramazanhalid/RiderProjects/ReCapProject/DataAccess/bin/Debug/net5.0/Core.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/DataAccess/bin/Debug/net5.0/Core.pdb
-/Users/ramazanhalid/RiderProjects/ReCapProject/DataAccess/bin/Debug/net5.0/Microsoft.AspNetCore.Http.Features.dll

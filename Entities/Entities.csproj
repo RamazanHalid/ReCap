@@ -16,4 +16,8 @@
       <ProjectReference Include="..\Core\Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Concrete\User.cs" />
+    </ItemGroup>
+
 </Project>
