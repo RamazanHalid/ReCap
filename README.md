@@ -30,7 +30,7 @@ User login.
 
 <img width="1388" alt="Screen Shot 2021-05-14 at 8 29 49 PM" src="https://user-images.githubusercontent.com/42031794/118309799-71da0480-b4f6-11eb-8a46-4ea0250b29e5.png">
 
-I am Ramazan Halid. Thank for reading this README.
+I am Ramazan Halid. Thank you for reading this README.
  
 
  
