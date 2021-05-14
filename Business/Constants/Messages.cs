@@ -18,9 +18,9 @@ namespace Business.Constants
         public static string CarUpdated = "Car Updated!";
         public static string Updated = " Updated!";
 
-        public static string BrandNameInvalid = "Invalid Brand Name";
-        public static string BrandAdded = "Brand Added";
-        public static string BrandDeleted = "Brand Deleted!";
+        public static string BrandNameInvalid = "Invalid BrandName Name";
+        public static string BrandAdded = "BrandName Added";
+        public static string BrandDeleted = "BrandName Deleted!";
         public static string ColorAdded = "Color Added";
         public static string ColorDeleted = "Color Deleted";
         public static string ColorUpdated = "Color Updated";

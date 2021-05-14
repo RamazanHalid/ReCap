@@ -34,7 +34,7 @@ namespace Business.Concrete
             _carDal.Add(car);
             return new SuccessResult( "Your Car Added");
         }
-        [SecuredOperation("car.add")]
+        //[SecuredOperation("car.add")]
         [CacheAspect]
         public IDataResult<List<Car>>  GetAll()
         {
