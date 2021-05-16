@@ -2,7 +2,7 @@ using Entities.Abstract;
 
 namespace Entities.DTOs
 {
-    public class CarDetailsDto:IDto
+    public class CustomerDetailsDto:IDto
     {
         public int CarId { get; set; }
         public string CarName { get; set; }

@@ -30,8 +30,9 @@ namespace DataAccess.Concrete.EntityFramework
                         BrandName = br.BrandName,
                         ColorName = cl.ColorName,
                         CarName = cr.CarName,
+                        ModelYear = cr.ModelYear,
+                        Description = cr.Description
                         
-                 
                     };
                 return result.ToList();
 
