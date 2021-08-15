@@ -28,6 +28,14 @@ namespace WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                  
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    ;
+            }));
             services.AddCors();
             
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
@@ -35,8 +43,7 @@ namespace WebApi
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
-                    options.TokenValidationParameters=new TokenValidationParameters
-                    {
+                    options.TokenValidationParameters=new TokenValidationParameters {
                         ValidateIssuer = true,
                         ValidateAudience = true,
                         ValidateLifetime = true,
@@ -69,9 +76,10 @@ namespace WebApi
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1"));
+                app.UseCors("MyPolicy");
             }
 
-            app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+           // app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
             
             app.UseHttpsRedirection();
             
