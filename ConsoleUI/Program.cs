@@ -11,6 +11,9 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             Console.WriteLine("asdasdasd");
+            Console.WriteLine("asdasdasd");
+            Console.WriteLine("asdasdasd");
+            Console.WriteLine("asdasdasd");
 
 
         }

@@ -18,3 +18,11 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/Business/bin/Debug/net5.0/Core.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/Business/bin/Debug/net5.0/Core.pdb
 /Users/ramazanhalid/RiderProjects/ReCapProject/Business/bin/Debug/net5.0/Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\Business.csproj.AssemblyReference.cache
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\Business.AssemblyInfoInputs.cache
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\Business.AssemblyInfo.cs
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\Business.dll
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Users\ramaz\Source\Repos\Rent-A-Car\Business\obj\Debug\net5.0\Business.pdb

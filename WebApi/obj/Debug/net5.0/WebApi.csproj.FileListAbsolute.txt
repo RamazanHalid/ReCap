@@ -66,3 +66,13 @@
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /Users/ramazanhalid/RiderProjects/ReCapProject/WebApi/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.dll
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\ref\WebApi.dll
+C:\Users\ramaz\Source\Repos\Rent-A-Car\WebApi\obj\Debug\net5.0\WebApi.pdb
