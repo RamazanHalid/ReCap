@@ -2,15 +2,14 @@ using Core.Entities.Concrete;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
-
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class MySQLContext:DbContext
+    public class RentACarContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           
-            optionsBuilder.UseMySQL(@"server=localhost;user=root;password=;database=recapproject;");
+
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=RAMAZANHALID;Trusted_Connection=true");
         }
 
         public DbSet<Car> Cars { get; set; }

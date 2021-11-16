@@ -10,11 +10,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfUserDal: EfEntityRepositoryBase<User,MySQLContext>, IUserDal
+    public class EfUserDal: EfEntityRepositoryBase<User,RentACarContext>, IUserDal
     {
         public List<OperationClaim> GetClaims(User user)
         {
-            using (var context = new MySQLContext())
+            using (var context = new RentACarContext())
             {
                 var result = from operationClaim in context.OperationClaims
                     join userOperationClaim in context.UserOperationClaims

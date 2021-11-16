@@ -10,14 +10,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCarDal:EfEntityRepositoryBase<Car,MySQLContext>, ICarDal
+    public class EfCarDal:EfEntityRepositoryBase<Car,RentACarContext>, ICarDal
     {
       
         
 
         public List<CarDetailsDto> GetCarDetailsDtos()
         {
-            using (MySQLContext context = new MySQLContext())
+            using (RentACarContext context = new RentACarContext())
             {
                 var result = from cr in context.Cars
                     join cl in context.Colors

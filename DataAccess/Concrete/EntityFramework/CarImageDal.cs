@@ -8,7 +8,7 @@ using Entities.Concrete;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class CarImageDal:EfEntityRepositoryBase<CarImage,MySQLContext>, ICarImageDal
+    public class CarImageDal:EfEntityRepositoryBase<CarImage,RentACarContext>, ICarImageDal
     {
      /*   public IDataResult<CarImage> GetImageByCarId(int carId)
         {

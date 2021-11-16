@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfColorDal:EfEntityRepositoryBase<Color,MySQLContext>, IColorDal
+    public class EfColorDal:EfEntityRepositoryBase<Color,RentACarContext>, IColorDal
     {
        
     }

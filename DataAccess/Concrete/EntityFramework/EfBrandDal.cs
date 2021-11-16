@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfBrandDal:EfEntityRepositoryBase<Brand,MySQLContext>, IBrandDal
+    public class EfBrandDal:EfEntityRepositoryBase<Brand,RentACarContext>, IBrandDal
     {
      
     }

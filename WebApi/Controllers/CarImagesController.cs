@@ -2,7 +2,6 @@ using Business.Abstract;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Renci.SshNet.Messages.Authentication;
 
 namespace WebApi.Controllers
 {

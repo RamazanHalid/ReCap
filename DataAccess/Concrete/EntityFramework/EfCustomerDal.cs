@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCustomerDal:EfEntityRepositoryBase<Customer,MySQLContext>,ICustomerDal
+    public class EfCustomerDal:EfEntityRepositoryBase<Customer,RentACarContext>,ICustomerDal
     {
       
     }
