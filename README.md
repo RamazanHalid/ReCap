@@ -2,15 +2,15 @@
 
 This project helps people who want to rent a car. This is a back-end project.
 
-Tools used in this project:
-    -Language: C#.
-    -Platform: Microsoft .NET CORE.
-    -Database: MySQL.
-    -API: RESTful API.
+Tools used in this project: <br>
+    -Language: C#.<br>
+    -Platform: Microsoft .NET CORE.<br>
+    -Database: MySQL.<br>
+    -API: RESTful API.<br>
     -Frameworks: Entity Framework, Autofac.
-    -Architecture, Principles, Patterns and others : Layered System, SOLID principles, Constructor Injection, Object Oriented Programming(OOP), Aspect Oriented Programming(AOP), Dependency Injection(Autofac) and IoC(Autofac) container.
-    -Security: Json Web Token(JWT), Hashing, Encryption, Transaction management and Validation.
-    -Speed: Caching, Performance Management.
+    -Architecture, Principles, Patterns and others : Layered System, SOLID principles, Constructor Injection, Object Oriented Programming(OOP), Aspect Oriented Programming(AOP), Dependency Injection(Autofac) and IoC(Autofac) container.<br>
+    -Security: Json Web Token(JWT), Hashing, Encryption, Transaction management and Validation.<br>
+    -Speed: Caching, Performance Management.<br>
     
     
     
